@@ -1,0 +1,8 @@
+<p>app1 works!</p>
+<form [formGroup]="form" style="background-color: darkgray; padding: 10px">
+    <div #feature name="app-feature2"></div>
+    <div #feature name="app-feature1"></div>
+    <div #feature name="app-feature3"></div>
+    {{form.value | json}}
+    <button type="submit">apply</button>
+</form>
